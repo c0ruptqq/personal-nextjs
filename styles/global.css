@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .nav-element{
+      @apply text-text flex justify-center mt-4 text-xl hover:text-primary transition ease-in-out duration-300 lg:inline-flex lg:p-3;
+    }
+    .nav-element-links{
+      @apply text-text p-3 text-2xl hover:text-primary ease-in-out duration-300 lg:mr-3
+    }
+   
+    .react-icons {
+      @apply bg-text text-bg rounded-full p-3 h-[4em] w-[4em];
+    }
+    
+    /* NAV MENU OPEN/CLOSE */
+    .expanded{
+      transform: scale(1);
+      opacity: 1;
+    }
+    .closed{
+      transform: scale(0);
+      opacity: 0;
+    }
+    .height_closed{
+    @apply h-0 hidden;
+     }
+    .height_open{
+    @apply h-screen;
+  }
+    .burger-bar{
+      background-color: #fff;
+      height: 0.5em;
+      width: 4em;
+      border-radius: 0.5em;
+
+    }
+    .burger-bar.clicked:nth-child(1){
+      transform: rotate(45deg) translate(1.25em, 1.25em);
+      transition: ease-out 0.5s;
+    }
+    .burger-bar.clicked:nth-child(2){
+      scale: 0;
+      transition: ease-out 0.5s;
+    }
+    .burger-bar.clicked:nth-child(3){
+      transform: rotate(135deg) translate(-1.25em, 1.25em);
+      transition: ease-out 0.5s;
+    }
+    .burger-bar.unclicked{
+      transform: rotate(0) translate(0);
+      transition: cubic-bezier(0.175, 0.885, 0.32, 1.275)  0.5s;
+    }
+}
+
+:root {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  @apply bg-bg;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
