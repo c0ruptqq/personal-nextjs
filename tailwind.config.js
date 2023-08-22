@@ -4,6 +4,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       animation: {
@@ -19,11 +20,11 @@ module.exports = {
         'lg': '1230px',
       },
       colors: {
-        text: '#D9D9D9',
-        bg: '#222222',
-        bgDarker: '#3f3f3f',
-        primary: '#BC4B51',
-        secondary: '#7678ED',
+        text: '#6F5643',
+        bg: '#ECE6C2',
+        bgDarker: '#F8F6E8',
+        primary: '#D2A24C',
+        secondary:'#CC6B49',
       },
     },
   },

@@ -88,7 +88,7 @@ export default function Weather() {
       <motion.div variants={item} className={`bg-bgDarker w-[90vw] lg:w-[40em] ${height} rounded-xl duration-300`}>
         <div className=' w-[90vw] lg:w-[40em] h-[15vh] flex flex-row justify-center items-center align-middle' > {/* Top banner */}
           <label className=''>
-            <input name='city' type="text" ref={inputRef} className='text-bg rounded-xl p-2 mt-2 w-[10em]' placeholder='Input City Name' />
+            <input name='city' type="text" ref={inputRef} className='text-text rounded-xl p-2 mt-2 w-[10em]' placeholder='Input City Name' />
           </label>
           <FaSearch className='react-icons ml-3 cursor-pointer mt-3 hover:bg-primary ease-in-out duration-300' onClick={getWeather} />
         </div>
