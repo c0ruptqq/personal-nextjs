@@ -45,7 +45,7 @@ export default function Projects() {
                   className='max-w-[20em] bg-cover bg-center rounded-xl mt-5  lg:max-w-[40em]  duration-300'
                   src='/ruby_isles.png'
                 />
-                <p className='text-text dark:text-bg p-2 text-3xl '>Smoothie Buisness Website</p>
+                <p className='text-text dark:text-bg p-2 text-3xl text-center '>Smoothie Buisness Website</p>
               </a>
             </div>
           </div>

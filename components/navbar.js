@@ -44,13 +44,13 @@ const Navbar = () => {
 
   }
   const useEffect = () => {
-    const body = document.querySelector("body")
+    var root = document.getElementsByTagName( 'html' )[0];
     if (!isDark) {
-      body.classList.add("dark") 
+      root.classList.add("dark") 
       setDark(true)
       }
     else {
-      body.classList.remove('dark')
+      root.classList.remove('dark')
       setDark(false)
     }
   }
