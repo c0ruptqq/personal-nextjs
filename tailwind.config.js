@@ -24,11 +24,22 @@ module.exports = {
         bg: '#ECE6C2',
         bgDarker: '#F8F6E8',
         primary: '#D2A24C',
-        secondary:'#CC6B49',
+        secondary: '#CC6B49',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            strong: {
+              color: '#CC6B49',
+            },
+          },
+        },
+      },
+
     },
   },
   plugins: [
+    require('@tailwindcss/typography')
   ],
 }
 

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/navbar";
+import Footer from '../components/footer'
 import '../styles/global.css'
 
 
@@ -12,6 +13,7 @@ export default function App({ Component, pageProps }) {
       <main className="bg-bg dark:bg-text w-full min-h-screen">
         <Navbar />
         <Component {...pageProps} />
+        <Footer />
       </main>
     </>
   )

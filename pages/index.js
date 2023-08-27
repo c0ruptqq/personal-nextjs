@@ -43,10 +43,10 @@ export default function Home() {
           variants={item}
           className="flex flex-col items-center">
           <div className='inline-flex flex-row'>
-            <p className="text-text dark:text-bg text-6xl text-center">Hey, I am Maksym</p>
+            <p className="text-text dark:text-bg text-6xl text-center">Hi, I am Maksym</p>
             <span className='text-6xl text-text dark:text-bg animate-blink invisible sm:visible'></span>
           </div>
-          <p className="pt-5 text-text dark:text-bg text-xl text-center ml-5 mr-5">A front end engineering student. This is a collection of my expertise with React.js and web development</p>
+          <p className="pt-5 text-text dark:text-bg text-xl text-center ml-5 mr-5">A front end engineering student. This is a collection of my projects with Javascript, web development and personale projects</p>
           <div className="flex flex-row justify-evenly m-6">
             <div className="mr-10">
               <motion.button

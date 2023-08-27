@@ -6,6 +6,7 @@ module.exports = {
       test: /\.svg$/,
       use: ["@svgr/webpack"]
     });
+    config.resolve.fallback = { fs: false };
 
     return config;
   }

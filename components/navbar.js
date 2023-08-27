@@ -44,15 +44,24 @@ const Navbar = () => {
 
   }
   const useEffect = () => {
-    var root = document.getElementsByTagName( 'html' )[0];
+    var root = document.getElementsByTagName('html')[0];
     if (!isDark) {
-      root.classList.add("dark") 
+      root.classList.add("dark")
       setDark(true)
-      }
+    }
     else {
       root.classList.remove('dark')
       setDark(false)
     }
+  }
+  const ToggleMenuLink = () => {
+    setBurgerClass("burger-bar unclicked")
+    setMenuClass("menu closed")
+    setHeightClass("height_closed")
+    document.querySelector("html").classList.remove('overflow-y-hidden');
+    setIsMenuClicked(!isMenuClicked)
+
+
   }
   return (
     <div className={`flex justify-center content-center items-center absolute w-screen ${height_class} lg:items-start lg:h-fit`}>
@@ -67,12 +76,12 @@ const Navbar = () => {
         className={`flex flex-col justify-center items-center content-center min-w-[90vw] min-h-[100vh] rounded-2xl z-10 bg-bg/40 dark:bg-text/30 backdrop-blur-md ${menu_class} duration-300 lg:expanded lg:bg-inherit lg:flex lg:relative lg:min-h-fit lg:w-screen lg:flex-row`}>
         <ul
           className={`lg:flex lg:content-start lg:ml-3 w-screen`}>
-          <CustomLink href="/" title="Home" className="lg:mr-4" click={ToggleMenu} />
-          <CustomLink href="/projects" title="Projects" className="lg:mx-4" click={ToggleMenu} />
-          <CustomLink href="/blog" title="Blog" className="lg:ml-4" click={ToggleMenu} />
+          <CustomLink href="/" title="Home" className="lg:mr-4" click={ToggleMenuLink} />
+          <CustomLink href="/projects" title="Projects" className="lg:mx-4" click={ToggleMenuLink} />
+          <CustomLink href="/blog" title="Blog" className="lg:ml-4" click={ToggleMenuLink} />
           <div className='flex justify-center lg:mt-2 lg:ml-3'>
-          <FaMoon className='lg:ml-4 light-toggle dark:hidden'  onClick={useEffect} />
-          <FaSun className='lg:ml-4 light-toggle  hidden dark:flex'  onClick={useEffect} />
+            <FaMoon className='lg:ml-4 light-toggle dark:hidden ' onClick={useEffect} />
+            <FaSun className='lg:ml-4 light-toggle  hidden dark:flex' onClick={useEffect} />
           </div>
         </ul>
         <div className="nav-element">

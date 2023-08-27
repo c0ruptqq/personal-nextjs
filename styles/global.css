@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -13,7 +13,7 @@
       @apply text-text dark:text-bg p-3 text-2xl hover:text-secondary ease-in-out duration-300 lg:mr-3
     }
     .light-toggle{
-      @apply text-text dark:text-bg flex justify-center text-2xl 
+      @apply text-text dark:text-bg flex justify-center text-3xl lg:text-2xl 
     }
    
     .react-icons {
