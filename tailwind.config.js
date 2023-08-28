@@ -26,15 +26,21 @@ module.exports = {
         primary: '#D2A24C',
         secondary: '#CC6B49',
       },
-      typography: {
+      typography: ({ theme }) => ({
         DEFAULT: {
           css: {
             strong: {
               color: '#CC6B49',
             },
+            '--tw-prose-quotes': theme('colors.secondary'),
+            '--tw-prose-quote-borders': theme('colors.secondary'),
+            '--tw-prose-captions': theme('colors.secondary'),
+            '--tw-prose-code': theme('colors.secondary'),
+            '--tw-prose-pre-code': theme('colors.secondar'),
+            '--tw-prose-pre-bg': theme('colors.secondary'),
           },
         },
-      },
+      }),
 
     },
   },
