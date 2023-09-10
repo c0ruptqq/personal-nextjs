@@ -3,17 +3,12 @@ title: 'Chemistry Notes'
 date: '2023-06-05'
 ---
 
-<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/paper/bootstrap.min.css" rel="stylesheet" integrity="sha384-awusxf8AUojygHf2+joICySzB780jVvQaVCAt1clU3QsyAitLGul28Qxb2r1e5g+" crossorigin="anonymous">
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], displayMath: [ ['$$','$$'], ["\\[","\\]"] ], processEscapes: true },TeX: { extensions: ["mhchem.js"] } });
-  </script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML-full"></script>
-  
-
 
 # Organic Chemistry
 
 The atom of Carbon (C, N-6) in organic bonds is always present in an exited state with a valency of 4. Thus, in organic chemistry, Carbon forms 4 covalent bonds, giving off 4 unpaired electrons in its outer shell. In organic chemistry the elements carbon forms bonds with is most other carbon atoms. Due to this, organic chemistry is the study of carbon chains of various length in which remaining vacant Carbon bonds are often taken up by Hydrogen (H, N-1) or functional groups.
+
+$\frac 1 2$
 
 ## Compound Classification
 Depending on the nature of the Carbon chain (ie. depending on the shape of the Carbon skeleton) all organic bonds can be classed as *cyclic* or *acyclic*:

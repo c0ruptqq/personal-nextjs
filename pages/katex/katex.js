@@ -9,10 +9,11 @@ for rendering output.
 
 /* jslint node: true */
 'use strict'
-
+var katex = require('katex')
+require('katex/dist/contrib/mhchem.js')
 // Test if potential opening or closing delimieter
 // Assumes that there is a "$" at state.src[pos]
-function isValidDelim (state, pos) {
+function isValidDelim(state, pos) {
   var prevChar; var nextChar
 
   var max = state.posMax
@@ -27,7 +28,7 @@ function isValidDelim (state, pos) {
   // Check non-whitespace conditions for opening and closing, and
   // check that closing delimeter isn't followed by a number
   if (prevChar === 0x20/* " " */ || prevChar === 0x09/* \t */ ||
-            (nextChar >= 0x30/* "0" */ && nextChar <= 0x39/* "9" */)) {
+    (nextChar >= 0x30/* "0" */ && nextChar <= 0x39/* "9" */)) {
     can_close = false
   }
   if (nextChar === 0x20/* " " */ || nextChar === 0x09/* \t */) {
@@ -40,7 +41,7 @@ function isValidDelim (state, pos) {
   }
 }
 
-function math_inline (state, silent) {
+function math_inline(state, silent) {
   var start, match, token, res, pos, esc_count
 
   if (state.src[state.pos] !== '$') { return false }
@@ -101,7 +102,7 @@ function math_inline (state, silent) {
   return true
 }
 
-function math_block (state, start, end, silent) {
+function math_block(state, start, end, silent) {
   var firstLine; var lastLine; var next; var lastPos; var found = false; var token
 
   var pos = state.bMarks[start] + state.tShift[start]
@@ -148,19 +149,19 @@ function math_block (state, start, end, silent) {
   token.content = (firstLine && firstLine.trim() ? firstLine + '\n' : '') +
     state.getLines(start + 1, next, state.tShift[start], true) +
     (lastLine && lastLine.trim() ? lastLine : '')
-  token.map = [ start, state.line ]
+  token.map = [start, state.line]
   token.markup = '$$'
   return true
 }
 
-export default function math_plugin (md, options) {
+export default function math_plugin(md, options) {
   // Default options
 
   options = options || {}
   options.macros = options.macros || {}
 
   // set KaTeX as the renderer for markdown-it-simplemath
-  var katexInline = function (latex) {
+  var katexInline = function(latex) {
     const opt = {
       ...options
     }
@@ -175,11 +176,11 @@ export default function math_plugin (md, options) {
     }
   }
 
-  var inlineRenderer = function (tokens, idx) {
+  var inlineRenderer = function(tokens, idx) {
     return katexInline(tokens[idx].content)
   }
 
-  var katexBlock = function (latex) {
+  var katexBlock = function(latex) {
     const opt = {
       ...options
     }
@@ -194,13 +195,13 @@ export default function math_plugin (md, options) {
     }
   }
 
-  var blockRenderer = function (tokens, idx) {
+  var blockRenderer = function(tokens, idx) {
     return katexBlock(tokens[idx].content) + '\n'
   }
 
   md.inline.ruler.after('escape', 'math_inline', math_inline)
   md.block.ruler.after('blockquote', 'math_block', math_block, {
-    alt: [ 'paragraph', 'reference', 'blockquote', 'list' ]
+    alt: ['paragraph', 'reference', 'blockquote', 'list']
   })
   md.renderer.rules.math_inline = inlineRenderer
   md.renderer.rules.math_block = blockRenderer
