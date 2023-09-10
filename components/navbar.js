@@ -79,6 +79,7 @@ const Navbar = () => {
           <CustomLink href="/" title="Home" className="lg:mr-4" click={ToggleMenuLink} />
           <CustomLink href="/projects" title="Projects" className="lg:mx-4" click={ToggleMenuLink} />
           <CustomLink href="/blog" title="Blog" className="lg:ml-4" click={ToggleMenuLink} />
+          <CustomLink href="/test" title="Test" className="lg:ml-4" click={ToggleMenuLink} />
           <div className='flex justify-center lg:mt-2 lg:ml-3'>
             <FaMoon className='lg:ml-4 light-toggle dark:hidden ' onClick={useEffect} />
             <FaSun className='lg:ml-4 light-toggle  hidden dark:flex' onClick={useEffect} />
