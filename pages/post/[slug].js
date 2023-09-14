@@ -1,7 +1,7 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import MarkdownIt from 'markdown-it'
-import mk from '../katex/katex'
+import mk from '../../katex/katex'
 import { globSync } from 'glob'
 
 
@@ -65,7 +65,7 @@ export async function getStaticPaths() {
   }))
   return {
     paths,
-    fallback: true
+    fallback: false
   }
 }
 

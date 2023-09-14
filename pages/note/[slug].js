@@ -1,11 +1,8 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import MarkdownIt from 'markdown-it'
-import mk from '../katex/katex'
+import mk from '../../katex/katex'
 import { globSync } from 'glob'
-
-
-
 
 const DEFAULT_OPTIONS = {
   mkit: {
@@ -56,7 +53,7 @@ md
   })
 
 export async function getStaticPaths() {
-  const files = globSync('posts/**/*.md')
+  const files = globSync('posts/notes/*.md')
   const paths = files.map((path) => ({
     params: {
       slug: path.replace('posts/notes/', '').replace('.md', '')
@@ -65,7 +62,7 @@ export async function getStaticPaths() {
   }))
   return {
     paths,
-    fallback: true
+    fallback: false
   }
 }
 export async function getStaticProps({ params: { slug } }) {
