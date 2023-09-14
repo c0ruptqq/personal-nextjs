@@ -9,12 +9,6 @@ import emoji from 'markdown-it-emoji'
 import taskLists from 'markdown-it-task-lists'
 import footnote from 'markdown-it-footnote'
 import markdownDeflist from 'markdown-it-deflist'
-import markdownImSize from '../katex/markdown-it-imsize'
-import mkitMermaid from '../katex/mermaid'
-//import chart from '../katex/chart'
-import diagram, { renderDiagram } from '../katex/diagram'
-import flowchart, { renderFlowchart } from '../katex//flowchart'
-import dot, { renderDot } from '../katex/dot'
 import markdownItToc from 'markdown-it-toc-done-right'
 
 import { globSync } from 'glob'
@@ -90,21 +84,6 @@ md
   .use(markdownDeflist)
   .use(footnote)
   .use(image)
-  .use(markdownImSize)
-  //.use(linenumbers)
-  .use(mkitMermaid)
-  //.use(chart.chartPlugin)
-  .use(diagram, {
-    ...sequenceDiagrams
-  })
-  .use(flowchart, flowchartDiagrams)
-  .use(dot)
-  //.use(markdownItAnchor, {
-  //  permalink: true,
-  //  permalinkBefore: true,
-  //  permalinkSymbol: anchorSymbol,
-  //  permalinkClass: 'anchor'
-  //})
   .use(markdownItToc, {
     ...DEFAULT_OPTIONS.toc,
     ...toc
