@@ -1,12 +1,12 @@
 import Link from 'next/link.js';
 import matter from 'gray-matter';
 import fs from 'fs';
+import { globSync } from 'glob'
 export async function getStaticProps() {
-  const folder = 'posts'
-  const files = fs.readdirSync(folder).filter(f => f.includes(".md"))
+  const files = globSync('posts/notes/*.md')
   const posts = files.map((fileName) => {
-    const slug = fileName.replace('.md', '')
-    const readFile = fs.readFileSync(`${folder}/${fileName}`, 'utf8')
+    const slug = fileName.replace('.md', '').match(/([^\/]*)\/*$/)[1]
+    const readFile = fs.readFileSync(fileName, 'utf8')
     const { data: frontmatter } = matter(readFile)
 
     return {
@@ -20,17 +20,13 @@ export async function getStaticProps() {
     }
   }
 }
-export default function Blog({ posts }) {
+export default function Notes({ posts }) {
 
   return (
     <div className='text-text text-6xl pt-40 p-4'>
-      <Link href={`notes`}>
-        <h1 className='text-text dark:text-bg text-4xl lg:text-6xl hover:text-secondary duration-200'>Notes</h1>
-      </Link>
       {posts?.map(({ slug, frontmatter }) => (
         <div key={slug} className='mt-6'>
-
-          <Link href={`post/${slug}`}>
+          <Link href={`note/${slug}`}>
             <h1 className='text-text dark:text-bg text-4xl lg:text-6xl hover:text-secondary duration-200'>{frontmatter.title}</h1>
           </Link>
         </div>
