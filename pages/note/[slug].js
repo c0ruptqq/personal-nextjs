@@ -80,7 +80,7 @@ export default function PostPage({ frontmatter, content }) {
     <>
       <div className='prose-sm lg:prose-xl prose mx-auto pt-40 p-4 katex'>
         <h1 className='text-text dark:text-bg prose-h'>{frontmatter.title}</h1>
-        <div className='text-text' dangerouslySetInnerHTML={{ __html: md.render(content) }} />
+        <div className='text-text dark:text-bg' dangerouslySetInnerHTML={{ __html: md.render(content) }} />
       </div>
     </>
   )

@@ -1,33 +1,8 @@
---
+---
 title: 'A-Level Physics Mechanics'
 date: '2023-08-27'
 ---
 
-# Measurements and errors
-
-### 1.1 SI units and prefixes
-
-SI (international system) is a common unit system that is used across the globe. The SI unit system has 7 fundamental (base) units. All other units are derived.
-
-| Quantity    | SI units    | SI symbol    |
-|---------------- | --------------- | --------------- |
-| Mass    | Kilogram    | Kg    |
-| Length    | Meters    | m    |
-| Time    | Seconds| s     |
-| Current    | Ampere | A     |
-| Amount of substance    | Mole | mol     |
-| Absolute temp | Kelvin | K     |
-| Luminous Intensity| Candella | Cal     |
-
-Examples:
-1) Express newtons in fundamental units
-   - F= m x a 
-   - units: N = kg x m/s^2 =
-   - = kg x ms^-2 <- Exponent form needed for full marks
-2) Joules:
-   - 123
-
-## Mechanics
 ### Scales and Vectors 
 
 Mechanics:
@@ -52,9 +27,7 @@ g - `grav`-field strength
 
 grav -> acceleration
 
-![ball diagram](/img/1.jpg) 
-<img src='/img/1.jpg' />
----
+<img src="/img/1.jpg" alt="ball diagram" width="400"/> 
 > 6/9/23
 
 vector * vector
@@ -64,7 +37,7 @@ eg. Work done = Force x Displacement <- (parallel) also known as 'dot product'
 eg. Moment = Force x Displacement <- (perpendicular)
 also known as 'cross-product'
 
-![diagram 2](./img/2.jpg) 
+<img src="/img/2.jpg" alt="ball diagram" width="400"/> 
 
 If the two vectors multiplied are *parallel*, the product is a scalar. If they are *perpendicular* the product is a vector.
 
@@ -75,34 +48,55 @@ Cross: F x S = ||F|| ||S||sin Ø
 
 Ø = angle between F and S 
 
-![diagram 3](./img/3.jpg) 
+<img src="/img/3.jpg" alt="ball diagram" width="400"/> 
 #### Finding information about vectors
 Force diagram:
-![diagram 5](./img/5.jpg) 
+<img src="/img/5.jpg" alt="ball diagram" width="400"/> 
 Vector diagram:
-![diagram 4](./img/4.jpg) 
+<img src="/img/4.jpg" alt="ball diagram" width="400"/> 
 
-### Estimation and power of ten
+## Combining Vectors
+To find the resultant force of 2 vectors add together $\sum F_{hor}$ and $\sum F_{perp}$ of thw two vectors. This can also be expressed in the following way:
 
-Estimation is a technique that is used to quickly find numerical solutions, questions using estimation are called **fermi** questions 
+$\vec{F}=F_x(\hat{x})+F_y(\hat{y})$
 
-Estimation is often used for questions that depend on the process.
+Where $\hat{x}$ and $\hat{y}$ are pure direction
 
-Only powers of ten are used Eg. $10^2, 10^3$
+### The concept of Forces
 
-| Prefix | Abbreviation | Value      |
-| ------ | ------------ | ---------- |
-| peta   | P            | $10^{15}$  |
-| tera   | T            | $10^{12}$  |
-| giga   | G            | $10^{9}$   |
-| mega   | M            | $10^{6}$   |
-| kilo   | k            | $10^{3}$   |
-| hecto  | h            | $10^{2}$   |
-| deca   | da           | $10^{1}$   |
-| deci   | d            | $10^{-1}$  |
-| centi  | c            | $10^{-2}$  |
-| milli  | m            | $10^{-3}$  |
-| micro  | $\mu$       | $10^{-6}$  |
-| nano   | n            | $10^{-9}$  |
-| pico   | p            | $10^{-12}$ |
-| femto  | f            | $10^{-15}$ |
+Newton's First Law - A body will remain stationary or move at a constant velocity unless acted on by a force
+Newton's Second Law - The acceleration of a body is proportional to the force applied and inversely proportional to the mass
+
+$a \propto F$
+
+$a \propto {\frac 1 m}$
+
+Newton's Third Law - when a body exerts force on a second body, the second body experiences an equal and opposite force
+
+### Forces in equilibrium
+
+**Horizontal - $\theta = 0$**
+If the center of mass is in the center of the object, we are assuming there is an even distribution of mass -> constant density
+
+<img src="/img/6.jpg" alt="ball diagram" width="400"/> 
+
+$F_R$ = Restoring force or the Normal force
+
+$F_R=F_W$
+
+The body is in equilibrium as there is no resultant force in any direction.
+
+**Slanted plane - $\theta > 0$**
+
+<img src="/img/7.jpg" alt="ball diagram" width="400"/> 
+<img src="/img/8.jpg" alt="ball diagram" width="400"/> 
+
+In blue are the imaginary forces which are there to assist calculation.
+
+${F_{FrII}} = F_{Fr}$
+
+${F_{RI}} = F_{FR}$
+
+<img src="/img/9.jpg" alt="ball diagram" width="400"/> 
+
+$F_{wII}$ is _parallel_ to $F_{II}$
