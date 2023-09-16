@@ -38,6 +38,11 @@ module.exports = {
             '--tw-prose-code': theme('colors.secondary'),
             '--tw-prose-pre-code': theme('colors.secondar'),
             '--tw-prose-pre-bg': theme('colors.secondary'),
+            '--tw-prose-headings': theme('colors.secondary'),
+            '--tw-prose-th-borders': theme('colors.primary'),
+            '--tw-prose-td-borders': theme('colors.primary'),
+            '--tw-prose-counters': theme('colors.primary'),
+            '--tw-prose-bullets': theme('colors.primary')
           },
         },
       }),

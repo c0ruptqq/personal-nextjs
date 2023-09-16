@@ -91,3 +91,45 @@ When multiplying quantities, add the **percentage** uncertainties
 $a^x \pm (x * (\Delta a/a)*100%)$
 
 When raising to a power, multiply the exponent value by the percentage uncertainty
+
+# Electricity
+
+### Revision 
+
+In a circuit:
+
+<img src="/img/phys/10.png" alt="" width="400"/>
+
+__Ammeter__
+- Ideally has zero resistance
+- Measures amps (A)
+
+__Voltmeter__
+- Ideally has infinite resistance
+- Measures potential difference (V)
+
+__Definitions__
+- Current (I) - rate of flow of charge
+$$\text{charge}=\frac {\Delta Q} {\Delta T}=\frac {\text{coulombs (C)}} {\text{seconds (S)}}$$
+
+- Charge of an electron - $1.6x10^{-19}C$
+- Potential difference (V)
+$$V=\frac W Q=JC^{-1}$$
+Where "W" is work done
+
+Eg. Electrical energy (Joules)
+
+$$W=IV\Delta{t}$$
+
+- Power - rate at which work is done 
+
+Eg. Electrical power (Watts)
+
+$$P=IV$$
+
+$$P=\frac {W}{\Delta T}=\frac{IV\Delta{T}}{\Delta{T}}=IV$$
+
+- Electrical resistance (R)
+
+$$R=\frac{V}{I}$$
+Where R is in ohms ($\Omega$), the above equation is also know as Ohm's Law

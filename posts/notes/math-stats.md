@@ -54,3 +54,44 @@ To calculate:
 
 - Midpoint: $\frac {lower + upper limit (or boundary)} {2}$
 - Class width: upper - lower **boundary**
+
+## Sampling
+
+A sampling frame is a list of all the sampling units forming a population from which a sample is taken.
+
+There are multiple ways to take a sample from a sampling frame:
+
+- __Random__ (simple random sampling) - Each member of the sampling frame is numbered. The sample is take using a random number generator
+
+- __Systematic__ - Each member of the sampling frame is numbered and in numerical order. Each member is selected at regular intervals, while the first member is selected using a random number generator.
+
+- __Stratified__ - Population is divided into strata and a random sample proportional to the strata as a proportion of the population is taken.
+$$\text{Number of stratum}=\frac {\text{Number in stratum * sample size}} {\text{number in population}}$$
+
+- __Quota__ - Similar to stratified but the sample is not random. Each sub-group (strata) are filled by specifically selecting matching items.
+- __Convenience__ (opportunity) - Sample is taken from the item available at the time. Similar to quota however to strata is preset.
+
+### Advantages vs Disadvantages 
+<img src="/img/math/1.jpg" alt="ball diagram" width="400"/> 
+
+## Measure of Location
+
+Population mean - $\mu$
+
+Sample mean - $\bar{x}$
+
+Mean from a list of data:
+
+$$\bar{x}=\frac {\sum{x}}{n}$$
+
+Mean from a frequency table:
+
+$$\bar{x}=\frac {\sum{fx} } {\sum f}$$
+
+Median - $Q_2$
+
+$$Q_2=\frac {1} {2}(n+1)^{\text{th}}$$
+
+If there is an even amount of numbers - Half of $\sum \text{two middle numbers}$
+
+If there is an odd amount of numbers - middle value

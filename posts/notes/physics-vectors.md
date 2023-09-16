@@ -27,8 +27,7 @@ g - `grav`-field strength
 
 grav -> acceleration
 
-<img src="/img/1.jpg" alt="ball diagram" width="400"/> 
-> 6/9/23
+<img src="/img/phys/1.jpg" alt="ball diagram" width="400"/> 
 
 vector * vector
 
@@ -37,23 +36,26 @@ eg. Work done = Force x Displacement <- (parallel) also known as 'dot product'
 eg. Moment = Force x Displacement <- (perpendicular)
 also known as 'cross-product'
 
-<img src="/img/2.jpg" alt="ball diagram" width="400"/> 
+<img src="/img/phys/2.jpg" alt="ball diagram" width="400"/> 
 
 If the two vectors multiplied are *parallel*, the product is a scalar. If they are *perpendicular* the product is a vector.
 
 #### Cross products and dot products
 
 Dot: W.D = F · S = ||F|| ||S||cos Ø
+
 Cross: F x S = ||F|| ||S||sin Ø
 
 Ø = angle between F and S 
 
-<img src="/img/3.jpg" alt="ball diagram" width="400"/> 
+<img src="/img/phys/3.jpg" alt="ball diagram" width="400"/> 
+
 #### Finding information about vectors
 Force diagram:
-<img src="/img/5.jpg" alt="ball diagram" width="400"/> 
+
+<img src="/img/phys/5.jpg" alt="ball diagram" width="400"/> 
 Vector diagram:
-<img src="/img/4.jpg" alt="ball diagram" width="400"/> 
+<img src="/img/phys/4.jpg" alt="ball diagram" width="400"/> 
 
 ## Combining Vectors
 To find the resultant force of 2 vectors add together $\sum F_{hor}$ and $\sum F_{perp}$ of thw two vectors. This can also be expressed in the following way:
@@ -65,6 +67,7 @@ Where $\hat{x}$ and $\hat{y}$ are pure direction
 ### The concept of Forces
 
 Newton's First Law - A body will remain stationary or move at a constant velocity unless acted on by a force
+
 Newton's Second Law - The acceleration of a body is proportional to the force applied and inversely proportional to the mass
 
 $a \propto F$
@@ -78,7 +81,7 @@ Newton's Third Law - when a body exerts force on a second body, the second body 
 **Horizontal - $\theta = 0$**
 If the center of mass is in the center of the object, we are assuming there is an even distribution of mass -> constant density
 
-<img src="/img/6.jpg" alt="ball diagram" width="400"/> 
+<img src="/img/phys/6.jpg" alt="ball diagram" width="400"/> 
 
 $F_R$ = Restoring force or the Normal force
 
@@ -88,8 +91,8 @@ The body is in equilibrium as there is no resultant force in any direction.
 
 **Slanted plane - $\theta > 0$**
 
-<img src="/img/7.jpg" alt="ball diagram" width="400"/> 
-<img src="/img/8.jpg" alt="ball diagram" width="400"/> 
+<img src="/img/phys/7.jpg" alt="ball diagram" width="400"/> 
+<img src="/img/phys/8.jpg" alt="ball diagram" width="400"/> 
 
 In blue are the imaginary forces which are there to assist calculation.
 
@@ -97,6 +100,11 @@ ${F_{FrII}} = F_{Fr}$
 
 ${F_{RI}} = F_{FR}$
 
-<img src="/img/9.jpg" alt="ball diagram" width="400"/> 
+<img src="/img/phys/9.jpg" alt="ball diagram" width="400"/> 
 
 $F_{wII}$ is _parallel_ to $F_{II}$
+
+$\delta$
+
+$\Delta$
+
