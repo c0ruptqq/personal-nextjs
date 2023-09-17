@@ -104,7 +104,3 @@ ${F_{RI}} = F_{FR}$
 
 $F_{wII}$ is _parallel_ to $F_{II}$
 
-$\delta$
-
-$\Delta$
-
