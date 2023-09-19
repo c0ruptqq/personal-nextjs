@@ -2,15 +2,15 @@ import React, { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { FaSearch } from 'react-icons/fa';
 import Head from 'next/head';
-import Wind from '/weather/wind.svg';
-import Humidity from '/weather/raindrops.svg'
-import Tornado from '/weather/tornado.svg'
+import Wind from '../public/weather/wind.svg';
+import Humidity from '../public/weather/raindrops.svg'
+import Tornado from '../public/weather/tornado.svg'
 
-import Clear from '/weather/main/Clear.svg'
-import Clouds from '/weather/main/Clouds.svg'
-import Drizzle from '/weather/main/Drizzle.svg'
-import Mist from '/weather/main/Mist.svg'
-import Rain from '/weather/main/Rain.svg'
+import Clear from '../public/weather/main/Clear.svg'
+import Clouds from '../public/weather/main/Clouds.svg'
+import Drizzle from '../public/weather/main/Drizzle.svg'
+import Mist from '../public/weather/main/Mist.svg'
+import Rain from '../public/weather/main/Rain.svg'
 const variants = {
   hidden: { opacity: 0 },
   show: {

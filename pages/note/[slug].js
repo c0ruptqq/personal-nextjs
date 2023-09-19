@@ -4,9 +4,6 @@ import MarkdownIt from 'markdown-it'
 import mk from '../../katex/katex'
 import { globSync } from 'glob'
 import mkitMermaid from '../../katex/mermaid'
-import { escape } from '../../katex/utils';
-
-
 const DEFAULT_OPTIONS = {
   mkit: {
     html: true,

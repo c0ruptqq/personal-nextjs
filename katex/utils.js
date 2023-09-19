@@ -1,4 +1,4 @@
-export const escape = (str) => {
+export default function escape(str) {
   // escape html content
   const d = document.createElement('div')
   d.appendChild(document.createTextNode(str))

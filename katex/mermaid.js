@@ -1,19 +1,19 @@
-import { escape } from './utils';
-
+import mermaid from 'mermaid';
 /*
  * global mermaid
 */
-const mermaidChart = (code) => {
+export function mermaidChart(code) {
   try {
     // eslint-disable-next-line
+    // Had to modify katex.css and add 'position: static;' to override default svg fomating
     mermaid.parse(code)
-    return `<div class="mermaid">${escape(code)}</div>`
+    return `<div class="mermaid">${code}</div>`
   } catch ({ str, hash }) {
-    return `<pre>${str}</pre>`
+    return `<pre>${str} ${code}</pre>`
   }
 }
 
-const MermaidPlugin = (md) => {
+export default function MermaidPlugin(md) {
   const origin = md.renderer.rules.fence.bind(md.renderer.rules)
   md.renderer.rules.fence = (tokens, idx, options, env, slf) => {
     const token = tokens[idx]
@@ -31,5 +31,3 @@ const MermaidPlugin = (md) => {
     return origin(tokens, idx, options, env, slf)
   }
 }
-
-export default MermaidPlugin
