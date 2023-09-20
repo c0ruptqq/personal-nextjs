@@ -5,7 +5,9 @@
 @tailwind utilities;
 
 @layer components{
-
+.prose img{
+ width: 400px; 
+}
     .nav-element{
       @apply text-text dark:text-bg flex justify-center mt-4 text-xl transition ease-in-out duration-300 lg:inline-flex lg:p-3;
     }

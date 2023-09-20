@@ -59,3 +59,17 @@ Within each shell each different sub-shell has different energy level, they are 
 
 
 
+## Covalent Bonding
+
+Covalent bonding - strong electrostatic attraction between a shared pair of electrons and nuclei of a bonded atom.
+
+A covalent bond is localised, acting only on a shared pair of electron between two atoms, this forms a molecule.
+
+Dot and cross diagrams are used to display covalent bonds.
+
+![dot-cross](/img/chem/1.png) 
+
+Paired electrons that are not shared (double blue balls) are called lone pairs.
+[ADD FLOURIDES]
+
+
