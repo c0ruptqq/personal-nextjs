@@ -39,7 +39,7 @@ s-orbitals:
 
 p-orbitals:
 - shape of a dumbbell 
-- each shell from n=2 contains three p-orbitals ($\ce{P_{x`}}, \ce{P_{y`}},\ce{P_z}$ )
+- each shell from n=2 contains three p-orbitals ($\ce{P_{x}}, \ce{P_{y}},\ce{P_z}$ )
 
 d- and f-orbitals:
 - Shells from n=3 contain five d-orbitals
@@ -67,9 +67,51 @@ A covalent bond is localised, acting only on a shared pair of electron between t
 
 Dot and cross diagrams are used to display covalent bonds.
 
+### Single bonds
+
 ![dot-cross](/img/chem/1.png) 
 
 Paired electrons that are not shared (double blue balls) are called lone pairs.
-[ADD FLOURIDES]
+
+### 'Excited' state
+
+If an atom gains energy the electron can 'jump' and orbital and become unpaired, thus increasing the number of available electrons in the outer shell. 
+
+Eg. Sulfur can have a valency(amount of outer shell electron) of 2,4 and 6, this happens as the paired electrons in 3s and 3p move into the 3d orbital:
+
+![energy](/img/chem/6.jpg) 
+
+![sulfur](/img/chem/5.png) 
+
+### Multiple bonds
+
+- Double covalent bonds is the electrostatic attraction between two shared pairs of electrons, most common are:
+
+$$\ce{O=O}$$
+$$\ce{C=O}$$
+
+![double](/img/chem/2.png) 
+
+
+- Triple covalent bonds is the electrostatic attraction between three shared pairs of electrons, most common are:
+
+$$\ce{N#N}$$
+$$\ce{H-C#N}$$
+
+![Triple](/img/chem/3.png) 
+
+### Dative Covalent Bonds
+
+In a dative covalent bonds the shared pair of electrons are supplied by one atom, the shared pair used to be a __lone pair__. 
+
+Eg. 
+
+$$\ce{NH3 + H+ -> NH4+}$$
+
+![dative](/img/chem/4.png) 
+
+The '->' in the second diagram represents that both electrons were given by nitrogen.
+
+
 
 
