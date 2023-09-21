@@ -114,4 +114,6 @@ The '->' in the second diagram represents that both electrons were given by nitr
 
 
 
+### Average bond enthalpy (brief start)
 
+Average bond enthalpy ($kJmol^{-1}$) is the measurement of covalent bond strength, the larger the average bond enthalpy, the stronger the bond. 
