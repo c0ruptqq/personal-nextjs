@@ -117,3 +117,40 @@ The '->' in the second diagram represents that both electrons were given by nitr
 ### Average bond enthalpy (brief start)
 
 Average bond enthalpy ($kJmol^{-1}$) is the measurement of covalent bond strength, the larger the average bond enthalpy, the stronger the bond. 
+
+
+## Molecule Structure
+
+Electron pairs have the same charge and thus repel. Electron shells seek to be as far away from each-other as possible. 
+
+Eg. $\ce{CH4}$ has 4 $\ce{C-H}$ bonds, they are equal, and thus the shape is a tetrahedral with angles 109.5 between each bond. 
+
+### Wedges 
+
+To represent 3D shapes on paper wedges are used:
+
+- __Top__ is used to represent a bond in the plane on the paper
+- __Middle__ is used to represent a bond coming out of the plane on the paper
+- __Bottom__ is used to represent a bond going in the plane on the paper
+
+![wedges](/img/chem/7.png)
+
+A lone pair is slightly closer to the center of an atom than a bonded pair, as it occupies more space. Thus it repels more strongly.
+
+Thus:
+
+bonded/bonded < bonded/lone < lone/lone
+
+More examples:
+
+![d](/img/chem/8.jpg) 
+
+Generally, with each lone pair the angle decreases approximately by 2.5 degrees.
+
+If a molecule as multiple bonds (eg. $\ce{=}$) each multiple bond is treated as a region. Thus in a $$\ce{CO2}$$ molecule the angles between bonds is 180 as the bonds are treated as $\ce{O=C=O}$. Another interesting molecule is $\ce{SF6}$
+
+![d](/img/chem/9.jpeg) 
+
+The angle is 90 as the shape of the molecule is _octohedral_ thus between _eachother_ the angle beween electrons is 90
+
+

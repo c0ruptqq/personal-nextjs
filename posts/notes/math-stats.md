@@ -95,3 +95,36 @@ $$Q_2=\frac {1} {2}(n+1)^{\text{th}}$$
 If there is an even amount of numbers - Half of $\sum \text{two middle numbers}$
 
 If there is an odd amount of numbers - middle value
+
+### Interquartiles
+
+Lower Quartile - $Q_1$
+
+Median - $Q_2$
+
+Upper Quartile - $Q_3$
+
+$$Q_1 = \frac 1 4(n+1)^{th}$$
+$$Q_2 = \frac 1 2(n+1)^{th}$$
+$$Q_3 = \frac 3 4(n+1)^{th}$$
+
+This data can also be represented in a box and whisker plot:
+
+![d](/img/math/2.jpeg) 
+
+When finding quartiles if the result is:
+- .5 - take mean of either side values
+- .25 - round down
+- .75 - round up
+
+If data is presented in a grouped frequency table *interpolation* can be used, the formula is:
+
+$$Q_2 = b + \frac {(\frac {1}{2}n)-f} {f_c}* c$$
+Where:
+- $n$ - Number of data points
+- $b$ - Lower boundary of the median group
+- $f$ - Cumulative frequency of previous group
+- $f_c$ - frequency of median group (class)
+- $c$ - class width (calculated using boundaries)
+
+The same formula is used for the upper and lower quartiles, just the fraction before n is modified to $\frac 1 4$ and $\frac 3 4$, respectively.
