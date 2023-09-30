@@ -1,9 +1,12 @@
 import fs from 'fs'
 import matter from 'gray-matter'
 import MarkdownIt from 'markdown-it'
-import mk from '../../katex/katex'
+import mk from '../../../katex/katex'
 import { globSync } from 'glob'
-import mkitMermaid from '../../katex/mermaid'
+import mkitMermaid from '../../../katex/mermaid'
+
+
+
 const DEFAULT_OPTIONS = {
   mkit: {
     html: true,
@@ -39,10 +42,10 @@ md
 
 
 export async function getStaticPaths() {
-  const files = globSync('posts/notes/*.md')
+  const files = globSync('posts/notes/math/*.md')
   const paths = files.map((path) => ({
     params: {
-      slug: path.replace('posts/notes/', '').replace('.md', '')
+      slug: path.replace('posts/notes/math/', '').replace('.md', '')
 
     }
   }))
@@ -52,7 +55,7 @@ export async function getStaticPaths() {
   }
 }
 export async function getStaticProps({ params: { slug } }) {
-  const fileName = fs.readFileSync(`posts/notes/${slug}.md`, 'utf8')
+  const fileName = fs.readFileSync(`posts/notes/math/${slug}.md`, 'utf8')
   const { data: frontmatter, content } = matter(fileName)
   return {
     props: {

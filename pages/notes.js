@@ -22,7 +22,7 @@ export async function getStaticProps() {
     }
   }
 }
-export default function Notes({ posts }) {
+export default function Notes() {
 
   return (
     <>
@@ -30,14 +30,17 @@ export default function Notes({ posts }) {
         <title>Notes</title>
       </Head>
       <div className='text-text text-6xl pt-40 p-4'>
-        {posts?.map(({ slug, frontmatter }) => (
-          <div key={slug} className='mt-6'>
-            <Link href={`note/${slug}`}>
-              <h1 className='text-text dark:text-bg text-4xl lg:text-6xl hover:text-secondary duration-200'>{frontmatter.title}</h1>
-            </Link>
-          </div>
+        <Link href={`notes/chem`}>
+          <h1 className='text-text dark:text-bg text-4xl lg:text-6xl hover:text-secondary duration-200'>Chem</h1>
+        </Link>
 
-        ))}
+        <Link href={`notes/phys`}>
+          <h1 className='text-text dark:text-bg text-4xl lg:text-6xl hover:text-secondary duration-200'>Phys</h1>
+        </Link>
+
+        <Link href={`notes/math`}>
+          <h1 className='text-text dark:text-bg text-4xl lg:text-6xl hover:text-secondary duration-200'>Math</h1>
+        </Link>
       </div>
     </>
   )
