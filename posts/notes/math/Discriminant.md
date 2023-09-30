@@ -1,10 +1,8 @@
 ---
-title: 'A-Level Math Pure'
-date: '2023-08-27'
+title: 'Discriminant'
+date: '09/30/2023'
 ---
-# Maths
 
-## Discriminant
 
 Tells how many solutions there are 
 $$f(x)=ax^2+bx+c$$
@@ -29,4 +27,3 @@ It is important to note that r starts from 0 and __not__ 1
 When:
 - r = 0 nCr = 1
 - r = 1 nCr = n
-

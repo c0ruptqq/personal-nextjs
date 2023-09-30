@@ -20,10 +20,10 @@ module.exports = {
         'lg': '1230px',
       },
       colors: {
-        text: '#6F5643',
-        bg: '#ECE6C2',
-        bgDarker: '#F8F6E8',
-        primary: '#D2A24C',
+        text: '#2B2B2B',
+        bg: '#F8F6E8',
+        bgDarker: '#a6a498',
+        primary: '#CC6B49',
         secondary: '#CC6B49',
       },
       typography: ({ theme }) => ({

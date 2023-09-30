@@ -43,14 +43,12 @@ md
 
 export async function getStaticPaths() {
   const files = globSync('posts/notes/chem/*.md')
-  console.log(files)
   const paths = files.map((path) => ({
     params: {
       slug: path.replace('posts/notes/chem/', '').replace('.md', '')
 
     }
   }))
-  console.log(paths)
   return {
     paths,
     fallback: false
