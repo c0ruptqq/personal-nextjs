@@ -9,4 +9,5 @@ date: '09/30/2023'
 * [Electricity](Electricity)
 * [Vectors](Vectors)
 * [Motion](Motion)
+* [Suvat](Suvat)
 

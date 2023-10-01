@@ -6,6 +6,7 @@ date: '09/30/2023'
 
 == Pure ==
 * [Discriminant](Discriminant)
+* [Trigonometry](Trigonometry)
 
 == Statistics == 
 * [Population and Sampling](Sampling)

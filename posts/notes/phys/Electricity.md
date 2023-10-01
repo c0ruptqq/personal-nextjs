@@ -76,3 +76,39 @@ In *parallel*:
 - $\frac {1} {R_{\text{total}}} = \frac {1} {R_1} + \frac {1} {R_n}$
 - Current is shared (split)
 - Potential difference is the same across the circuit
+
+### Kirchoff's laws:
+
+- The sum of the emfs is equal to teh sum of the potential differences around a circuit. (Also know as conservation of energy)
+- At any junction the total current entering the junction is equal to the total current leaving the junction (node).
+]
+#### Potential divider rule:
+
+Only applies to series circuits.
+$$V_n = \frac {R_n} {R_total} * \mathcal{E}$$
+$$\frac {V_1} {V_2} = \frac {R_1} {R_2}$$
+
+#### Current divider rule:
+Only applies to parallel circuits.
+$$I_1 = \frac {R_2} {R_1+R_2} * I$$
+Where $R_2$ is the opposite resistor to the one for which current is being found.
+
+## Resistivity
+
+- Resistivity is a property of a materal which gives it its resistance
+- $\text{Conductivity}=\frac {1} {\text{resistivity}}$
+- A good conductor has low resistivity 
+
+If we consider a conductor of length $L$, cross-sectional area $A$ and resistivity $\rho$. Then the relationship between them will be as follows:
+$$R \propto L$$
+$$R \propto \rho$$
+$$R \propto \frac 1 A$$
+Thus:
+$$R = \frac {\rho L}{A}$$
+
+Where:
+- $R$ - $\Omega$
+- $\rho$ - $\Omega m$ 
+- $L$ - $m$ 
+- $A$ - $m^2$
+

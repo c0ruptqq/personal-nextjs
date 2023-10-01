@@ -58,6 +58,7 @@ $$\ce{NH3 + H+ -> NH4+}$$
 
 The '->' in the second diagram represents that both electrons were given by nitrogen.
 
+An easy way to chek if the dot and cross diagram is correct is by adding up all the electrons in teh outer shells of all the ellements before and after.
 
 
 ### Average bond enthalpy (brief start)

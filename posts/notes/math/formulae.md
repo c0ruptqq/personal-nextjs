@@ -87,9 +87,9 @@ If data is presented in a grouped frequency table *interpolation* can be used, t
 $$Q_2 = b + \frac {(\frac {1}{2}n)-f} {f_c}* c$$
 Where:
 - $n$ - Number of data points
-- $b$ - Lower boundary of the median group
+- $b$ - Lower boundary of the selected group
 - $f$ - Cumulative frequency of previous group
-- $f_c$ - frequency of median group (class)
+- $f_c$ - frequency of selected group (class)
 - $c$ - class width (calculated using boundaries)
 
 The same formula is used for the upper and lower quartiles, just the fraction before n is modified to $\frac 1 4$ and $\frac 3 4$, respectively.
