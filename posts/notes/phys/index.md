@@ -10,4 +10,8 @@ date: '09/30/2023'
 * [Vectors](Vectors)
 * [Motion](Motion)
 * [Suvat](Suvat)
+* [Projectile Motion](Projectile)
+
+
+
 

@@ -1,6 +1,5 @@
 ---
 title: 'Index'
-date: 'Date'
 ---
 = Notes =
 
@@ -12,3 +11,4 @@ date: 'Date'
 * [Moles&Formulae](Moles&Formulae)
 * [Electron_Structure](Electron_Structure)
 * [Bonding](Bonding)
+* [Electronegativity](Electronegativity)
