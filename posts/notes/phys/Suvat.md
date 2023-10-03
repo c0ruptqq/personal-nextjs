@@ -18,6 +18,7 @@ Useful formulae:
 $$v^2 = u^2  +2as$$
 $$v = u+at$$
 $$s = ut+ \frac 1 2 at^2$$
+$$s= \frac 1 2 (v+u)t$$
 Galiean equation:
 $$v =\frac s t$$
 
@@ -42,4 +43,4 @@ $$\int_0^t vdt = vt =s$$
 
 If we concider a scenario where a ball is thrown up into the aiter and then caught on the way down the graphs for this scenario will be as follows:
 
-![graphs](/img/phys/19.jpeg)
+![graphs](/img/phys/18.jpeg)
