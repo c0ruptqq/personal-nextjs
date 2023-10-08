@@ -79,7 +79,7 @@ In *parallel*:
 
 ### Kirchoff's laws:
 
-- The sum of the emfs is equal to teh sum of the potential differences around a circuit. (Also know as conservation of energy)
+- The sum of the emfs is equal to the sum of the potential differences around a circuit. (Also know as conservation of energy)
 - At any junction the total current entering the junction is equal to the total current leaving the junction (node).
 ]
 #### Potential divider rule:

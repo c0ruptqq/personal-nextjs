@@ -12,3 +12,4 @@ title: 'Index'
 * [Electron_Structure](Electron_Structure)
 * [Bonding](Bonding)
 * [Electronegativity](Electronegativity)
+* [Intermolecular-forces](Intermolecular-forces)
