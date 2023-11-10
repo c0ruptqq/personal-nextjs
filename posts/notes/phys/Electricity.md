@@ -112,3 +112,11 @@ Where:
 - $L$ - $m$ 
 - $A$ - $m^2$
 
+
+## Thermistors and LDRS
+
+A thermistor is a type of resistor with a resistance that depends on temperature. There is an inverse relationship between temperature and resistance. There are two types of thermistors NTC and PTC (Negative/Positive temperature coefficient), with a inverse or proportional relationships respectively.
+
+a light dependant resistor (photo resistor) has a resistance which depends on light resistance (alos inverse relationship)
+
+Thermistors and LDRS are used to make sensors when placed in potential divider circuits.

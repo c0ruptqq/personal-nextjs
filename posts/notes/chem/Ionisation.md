@@ -26,7 +26,7 @@ The figure shows that there are:
 - General increase in first ionisation energies across each period
 - A sharp drop between the ionisation energy of the last element in one period and the first in the next
 
-However, there are also drops within each period. These can be explained by the filling process of orbitals. The more _unpaired_ electrons there are in the outer-most orbital in an atom the higher the ionisation energy. However when there are two paired electrons the repulsion between them makes it easier to remove one electron.
+However, there are also drops within each period. These can be explained by the filling process of orbitals. The first drop can be explained by the introduction of the p orbital which has a different energy level, thus _shielding_ increases. The second drop can be explained by the pairing of electrons in the p orbital, when the fist pair appears the electrons in the pair repel each-other, thus they are easier to separate.
 
 ![orbiatals](/img/chem/14.png)
 

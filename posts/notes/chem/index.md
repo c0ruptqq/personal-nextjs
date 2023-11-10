@@ -14,3 +14,4 @@ title: 'Index'
 * [Electronegativity](Electronegativity)
 * [Intermolecular-forces](Intermolecular-forces)
 * [Ionisation](Ionisation)
+* [Metallic structure](Metallic_structure)
