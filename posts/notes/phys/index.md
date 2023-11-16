@@ -11,6 +11,8 @@ date: '09/30/2023'
 * [Motion](Motion)
 * [Suvat](Suvat)
 * [Projectile Motion](Projectile)
+* [Work](Work)
+* [Materials](Materials)
 
 
 

@@ -52,7 +52,7 @@ A diode is a type of an electronic valve. It allows current to flow in 1 directi
 
 ![diode](/img/phys/16.png) 
 
-### I/V graphs
+## I/V graphs
 
 In an I/V graph if the line is straight and passes through (0,0) then the relationship is linear and proportional. Below are I/V graph of three components:
 ![graphs](/img/phys/15.png) 
@@ -61,7 +61,7 @@ In a bulb the gradient (resistance R) increases as bulb heats up. As it heats up
 
 In a diode when the gradient in negative (on/below the X axis) the diodes resistance is infinite. To begin to conduct it needs to reach a threshold voltage after which the gradient increases (as seen in the graph).
 
-### Series and parallel circuits
+## Series and parallel circuits
 
 $\xi$ is a symbol used to symbolise the voltage across a cell.
 
@@ -77,18 +77,18 @@ In *parallel*:
 - Current is shared (split)
 - Potential difference is the same across the circuit
 
-### Kirchoff's laws:
+## Kirchoff's laws:
 
 - The sum of the emfs is equal to the sum of the potential differences around a circuit. (Also know as conservation of energy)
 - At any junction the total current entering the junction is equal to the total current leaving the junction (node).
-]
-#### Potential divider rule:
+
+### Potential divider rule:
 
 Only applies to series circuits.
 $$V_n = \frac {R_n} {R_total} * \mathcal{E}$$
 $$\frac {V_1} {V_2} = \frac {R_1} {R_2}$$
 
-#### Current divider rule:
+### Current divider rule:
 Only applies to parallel circuits.
 $$I_1 = \frac {R_2} {R_1+R_2} * I$$
 Where $R_2$ is the opposite resistor to the one for which current is being found.
@@ -112,11 +112,38 @@ Where:
 - $L$ - $m$ 
 - $A$ - $m^2$
 
-
 ## Thermistors and LDRS
 
 A thermistor is a type of resistor with a resistance that depends on temperature. There is an inverse relationship between temperature and resistance. There are two types of thermistors NTC and PTC (Negative/Positive temperature coefficient), with a inverse or proportional relationships respectively.
 
-a light dependant resistor (photo resistor) has a resistance which depends on light resistance (alos inverse relationship)
+A light dependant resistor (photo resistor) has a resistance which depends on light resistance (alos inverse relationship)
 
 Thermistors and LDRS are used to make sensors when placed in potential divider circuits.
+
+## Internal Resistance 
+
+An electrical source (cell) has an internal resistance which opposesthe flow of charge through it. 
+A battery contains electrodes and a chemicla solution which have their own resistance.
+The internal resistance ( r ) of a source is defined as **the loss of potential difference per unit current in the source, as current passes through the source**
+
+The emf ($\mathcal E$) is the pd across a voltage source. It is the wd per unit charge delivered by the source. 
+
+$$\therefore \mathcal E = \frac W Q$$
+
+![](/img/phys/22.jpeg)
+In the ideal situation:
+$$r = 0 \Omega$$
+$$\therefore v = \mathcal{E}$$
+
+![](/img/phys/21.jpeg)
+
+In the real scenario:
+
+$$\text{Total resistance = R+r}$$
+$$\therefore I' < I $$
+From Kirchoff's Voltage Law:
+$$\mathcal{E} = V_R + V_r$$
+$$\therefore \mathcal{E} = I'R + I'r$$
+In general:
+$$V_R = \mathcal{E}-V_r$$
+
